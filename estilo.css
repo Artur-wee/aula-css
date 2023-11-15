@@ -1,0 +1,90 @@
+/*     titulos de <class>
+        tinformações = titulo das informações
+        informações = informações detalhadas
+        linkedin = botão Linkedin
+        sesc = logo SESC
+        ifsc = logo ifsc
+        stackx = logo stackx
+        objetivo = titulo/texto do meu objetivo
+        escola = titulo/texto das escolas
+        tdescrição = nomes das empresas
+        descrição = coisas que eu fazia na empresa
+        titulos = Coisas adicionias que eu fiz
+        contato = informações de contato
+*/
+    /*Geral*/
+body{
+    margin-left: 70px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    background-color: lightskyblue;
+}
+
+    /*Por codigo*/
+
+p {
+    font-size: 20px;
+    color: darkslategrey;
+}
+
+h1 {
+    font-size: 50px;
+    color: black;
+}
+
+h3 {
+    font-size: 28px;
+    color: blue;
+}
+
+h4 {
+    font-size: 24px;
+    color: rgb(175, 28, 175);
+}
+
+h5 {
+    font-size: 34px;
+    color: red;
+}
+
+li {
+    font-size: 20px;
+    color: darkslategray;
+}
+
+    /*por classe*/
+
+.linkedin {
+    position: absolute;
+    bottom: 390px;
+    left: 50%;
+}   
+.sesc{
+    position: absolute;
+    bottom: 60px;
+    left: 40%;
+}
+.ifsc{
+    position: absolute;
+    bottom: -180px;
+    left: 40%;
+}
+.stackx{
+    position: fixed;
+    bottom: 5%;
+    right: 3%;
+    width: 100px;
+}
+.objetivo{
+    width: 600px;
+}
+.descrição{
+    width: 600px;
+}
+.contato {
+    border-bottom: 2px solid red;
+    width: 600px;
+}
+.brincadeira {
+    display: none
+}
